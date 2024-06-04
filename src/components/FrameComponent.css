@@ -1,0 +1,51 @@
+.brand-name3 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 57px;
+}
+.months3 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+}
+.form-fieldschevron-down-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand-name-parent1,
+.frame-wrapper15,
+.months-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.months-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-8xs);
+}
+.brand-name-parent1,
+.frame-wrapper15 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-wrapper15 {
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-greys-b20);
+  padding: var(--padding-6xs) var(--padding-base);
+  font-size: var(--title-heading-5-regular-size);
+  color: var(--grey-greys-b800);
+}
+.brand-name-parent1 {
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--paragraph-base-1-medium-size);
+  color: var(--grey-greys-b300);
+  font-family: var(--title-heading-5-regular);
+}
